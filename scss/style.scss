@@ -567,7 +567,7 @@
           }
         }
         &:hover{
-          color: $red;
+          color: #92CA7C;
         }
       }
       .soc-links{
@@ -578,7 +578,7 @@
          gap: 12px;
         }
         a{
-          background: $red;
+          background: #92CA7C;
           border-radius: 12px;
           @include flex;
           img{
@@ -617,6 +617,7 @@
         @include align-center;
         font-size: 22px;
         color: white;
+        cursor: pointer;
         font-weight: bold;
         text-transform: uppercase;
         @media (max-width: 1024px) {
@@ -1029,6 +1030,9 @@ input.error {
         z-index: 10;
         transform: translate(0, 0);
         position: static;
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -webkit-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -moz-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
         &:hover {
           background: darken($red, 7%);
         }
@@ -1447,6 +1451,9 @@ input.error {
         background: white;
         @include flex;
         z-index: 10;
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -webkit-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -moz-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
         @media (max-width: 1600px) {
           width: 40px;
           height: 40px;
@@ -1604,6 +1611,9 @@ input.error {
         background: white;
         @include flex;
         z-index: 10;
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -webkit-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -moz-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
         @media (max-width: 1600px) {
           width: 50px;
           height: 50px;
@@ -2169,6 +2179,9 @@ input.error {
       button {
         width: 70px;
         height: 70px;
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -webkit-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -moz-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
         border-radius: 40px;
         background: white;
         @include flex;
@@ -2234,7 +2247,7 @@ input.error {
         }
         &:hover{
           .text{
-            color: $red;
+            color: #92CA7C;
           }
         }
         .text{
@@ -2285,6 +2298,9 @@ input.error {
         border-radius: 40px;
         background: white;
         @include flex;
+        box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -webkit-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
+        -moz-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.11);
         z-index: 10;
         @media (max-width: 1600px) {
           width: 40px;
@@ -2536,7 +2552,7 @@ input.error {
         height: 330px;
       }
       &:nth-child(5){
-        background: #F39E91;
+        background: #92CA7C;
         grid-column: 3/4;
         grid-row: 2/3;
         height: 330px;
